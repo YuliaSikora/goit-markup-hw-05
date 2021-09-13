@@ -391,6 +391,7 @@ ul {
 }
 .link-worker-icon {
   fill: var(--border-partners);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* .link-worker-icon:hover,
 .link-worker-icon:focus {
@@ -438,7 +439,7 @@ ul {
   justify-content: center;
   align-items: center;
 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .partners-link a:hover .partners-icon-svg,
 .partners-link a:focus .partners-icon-svg {
@@ -446,6 +447,7 @@ ul {
 }
 .partners-icon-svg {
   fill: var(--border-partners);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -708,6 +710,7 @@ img {
   bottom: 50%;
   left: 50%;
   transform: translate(-50%, 50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   width: 528px;
   height: 581px;
