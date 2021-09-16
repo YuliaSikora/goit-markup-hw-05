@@ -377,8 +377,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-worker a:hover .link-worker-icon,
 .link-worker a:focus .link-worker-icon {
@@ -438,8 +436,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .partners-link a:hover .partners-icon-svg,
 .partners-link a:focus .partners-icon-svg {
